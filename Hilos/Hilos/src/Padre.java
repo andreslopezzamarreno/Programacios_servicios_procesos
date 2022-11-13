@@ -40,10 +40,10 @@ public class Padre {
 
             System.out.println(line);
 
-
         } catch (IOException e) {
             System.out.println("Error : " + e.getMessage());
         }
 
     }
 }
+

@@ -6,11 +6,10 @@ import java.io.InputStreamReader;
 public class Hijo {
 
     public static void main(String[] args) {
-
         String leer =" ";
         String lectura,usuario,contrasenia,mensaje = "";
-
         BufferedReader bufferedReader = null;
+
         try {
             // BufferedReader para recibir datos del padre
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,16 +18,18 @@ public class Hijo {
 
             usuario = leer.split(" ")[0];
             contrasenia = leer.split(" ")[1];
+
             bufferedReader = new BufferedReader(new FileReader("src/entreja.txt"));
 
             while ((lectura = bufferedReader.readLine()) != null) {
                 if (usuario.equalsIgnoreCase(lectura.split(" ")[0]) && contrasenia.equalsIgnoreCase(lectura.split(" ")[1])){
-                    mensaje = "usuario y contraseña correctas";
+                    mensaje = "Usuario y contraseña correctas";
                     break;
                 }else{
-                    mensaje = "usuario o contraseña incorrectas";
+                    mensaje = "Usuario o contraseña incorrectas";
                 }
             }
+
             System.out.println(mensaje);
 
         } catch (IOException e) {
@@ -42,6 +43,5 @@ public class Hijo {
                 e.printStackTrace();
             }
         }
-
     }
 }
