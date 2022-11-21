@@ -13,8 +13,8 @@ public class Hijo {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             leer = new String();
-            leer = br.readLine();
 
+            leer = br.readLine();
             usuario = leer.split(" ")[0];
             contrasenia = leer.split(" ")[1];
 
