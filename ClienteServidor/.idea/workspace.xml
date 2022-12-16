@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7859138-3332-415b-a831-1000d77ef676" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cliente/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cliente/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cliente/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cliente/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cliente/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cliente/app/src/main/java/com/example/cliente/Hilo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClienteServidor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientePersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/ServidorCliente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/out/production/ServidorCliente/Servidor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/src/Hilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/src/Servidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServidorCliente/src/ServidorPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conexion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conexion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conexion/out/production/Conexion/ConnectionPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Conexion/out/production/Conexion/ConnectionPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conexion/src/ConnectionPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Conexion/src/ConnectionPost.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ir0IozwktwTt9O4BA9djPSf8W1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lopez/OneDrive/Documentos/GitHub/Programacios_servicios_procesos/ClienteServidor&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Cliente">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cliente" />
+      <module name="ClienteServidor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientePersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientePersona" />
+      <module name="ClienteServidor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.ClientePersona" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7859138-3332-415b-a831-1000d77ef676" name="Changes" comment="" />
+      <created>1670924321121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670924321121</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 public class ConnectionPost {
     public static void main(String[] args) {
-        String datos = "nombre=ddd&edad=66";
+        String datos = "nombre=Juan&edad=34";
         URL url ;
         HttpURLConnection hc;
         String inputline;
