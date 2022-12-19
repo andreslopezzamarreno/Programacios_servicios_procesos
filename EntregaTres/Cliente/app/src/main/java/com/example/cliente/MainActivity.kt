@@ -3,6 +3,7 @@ package com.example.cliente
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.cliente.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
 import java.io.*
 import java.net.Socket
 
@@ -18,11 +19,12 @@ class MainActivity : AppCompatActivity() {
 
         binding.botonEnviar.setOnClickListener {
             if (binding.textServidor.text.isEmpty() || binding.textPuerto.text.isEmpty() || binding.textEnviar.text.isEmpty()) {
-                println("klk")
+                Snackbar.make(
+                    findViewById(R.id.botonEnviar),"Falta algun Dato",Snackbar.LENGTH_SHORT).show()
             } else {
                 hilo = Hilo(binding.textServidor.text.toString(),binding.textPuerto.text.toString().toInt(),binding.textEnviar.text.toString())
                 hilo.start()
-
+                binding.textEnviar.setText("")
             }
         }
     }

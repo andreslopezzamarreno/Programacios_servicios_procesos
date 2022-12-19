@@ -9,14 +9,15 @@
     android:layout_margin="30dp">
 
     <TextView
-        android:layout_margin="50dp"
+        android:layout_margin="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Conexion Cliente-Servidor"
         android:textSize="30dp"
         android:gravity="center"/>
+
     <EditText
-        android:layout_margin="50dp"
+        android:layout_margin="30dp"
         android:id="@+id/textServidor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,25 +25,25 @@
         android:inputType="phone"/>
 
     <EditText
-        android:layout_margin="50dp"
+        android:layout_margin="30dp"
         android:id="@+id/textPuerto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Puerto"
         android:inputType="number" />
-
+    <Button
+        android:id="@+id/botonEnviar"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar "/>
     <EditText
-        android:layout_margin="50dp"
+        android:layout_margin="30dp"
         android:id="@+id/textEnviar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Mensaje"/>
 
-    <Button
-        android:id="@+id/botonEnviar"
-        android:layout_margin="50dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enviar "/>
+
 
 </LinearLayout>

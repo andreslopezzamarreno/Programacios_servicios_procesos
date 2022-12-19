@@ -15,8 +15,8 @@ public class Servidor {
         int socket = 1234;
 
         try {
-            System.out.println("Puerto: " +socket);
             System.out.println(InetAddress.getLocalHost());
+            System.out.println("Puerto: " +socket);
             servidor = new ServerSocket(socket);
             while (!lectura.equalsIgnoreCase("parar")) {
                 Socket cliente = servidor.accept();
@@ -26,7 +26,6 @@ public class Servidor {
                 cliente.close();
                 br.close();
             }
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

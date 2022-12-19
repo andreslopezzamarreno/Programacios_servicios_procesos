@@ -19,7 +19,6 @@ class Hilo(var ip:String, var puerto:Int,var mensaje:String) : Thread() {
         out.println(mensaje)
         out.close()
         client.close()
-        //"192.168.1.128", 1234
     }
 
 
