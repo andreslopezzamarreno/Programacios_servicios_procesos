@@ -20,9 +20,19 @@ class MainActivity : AppCompatActivity() {
         binding.botonEnviar.setOnClickListener {
             if (binding.textServidor.text.isEmpty() || binding.textPuerto.text.isEmpty() || binding.textEnviar.text.isEmpty()) {
                 Snackbar.make(
-                    findViewById(R.id.botonEnviar),"Falta algun Dato",Snackbar.LENGTH_SHORT).show()
+                    findViewById(R.id.botonEnviar),
+                    "Falta algun Dato por Introducir",
+                    Snackbar.LENGTH_SHORT
+                ).show()
             } else {
-                hilo = Hilo(binding.textServidor.text.toString(),binding.textPuerto.text.toString().toInt(),binding.textEnviar.text.toString())
+                //Sin añadir el hilo da error -> android.os.NetworkOnMainThreadException
+                //Que es que el metodo Main no puede hacer la conexion a internet
+
+                hilo = Hilo(
+                    binding.textServidor.text.toString(),
+                    binding.textPuerto.text.toString().toInt(),
+                    binding.textEnviar.text.toString()
+                )
                 hilo.start()
                 binding.textEnviar.setText("")
             }

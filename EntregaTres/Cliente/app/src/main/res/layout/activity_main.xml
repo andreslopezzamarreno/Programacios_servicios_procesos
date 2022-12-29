@@ -4,46 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:layout_margin="30dp"
     android:orientation="vertical"
-    android:layout_margin="30dp">
+    tools:context=".MainActivity">
 
     <TextView
-        android:layout_margin="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
         android:text="Conexion Cliente-Servidor"
-        android:textSize="30dp"
-        android:gravity="center"/>
+        android:textSize="30dp" />
 
     <EditText
-        android:layout_margin="30dp"
         android:id="@+id/textServidor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="30dp"
         android:hint="IP Servidor"
-        android:inputType="phone"/>
+        android:inputType="phone" />
 
     <EditText
-        android:layout_margin="30dp"
         android:id="@+id/textPuerto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="30dp"
         android:hint="Puerto"
         android:inputType="number" />
+
     <Button
         android:id="@+id/botonEnviar"
-        android:layout_margin="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enviar "/>
-    <EditText
         android:layout_margin="30dp"
+        android:text="Enviar " />
+
+    <EditText
         android:id="@+id/textEnviar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mensaje"/>
-
+        android:layout_margin="30dp"
+        android:hint="Mensaje" />
 
 
 </LinearLayout>
