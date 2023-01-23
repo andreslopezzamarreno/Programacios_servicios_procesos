@@ -4,8 +4,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.cliente.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
-import java.io.*
-import java.net.Socket
 
 class MainActivity : AppCompatActivity() {
 
