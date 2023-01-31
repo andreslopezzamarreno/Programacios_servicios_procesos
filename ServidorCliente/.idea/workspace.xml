@@ -1,76 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="efd217f3-34a8-4f30-b434-35373924d0e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClienteServidor/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteServidor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteServidor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteServidor/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteServidor/ClienteServidor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteServidor/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteServidor/src/ClientePersona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteServidor/src/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/androidTest/java/com/example/cliente/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/java/com/example/cliente/Hilo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/java/com/example/cliente/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/app/src/test/java/com/example/cliente/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Servidor/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Servidor/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Servidor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Servidor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Servidor/Servidor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaTres/Servidor/src/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServidorCliente.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ServidorCliente/Servidor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hilo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ServidorPersona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conexion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conexion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conexion/out/production/Conexion/ConnectionPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Conexion/out/production/Conexion/ConnectionPost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conexion/src/ConnectionPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Conexion/src/ConnectionPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/java/com/example/entregafinalpsp/MainActivity2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/java/com/example/entregafinalpsp/Usuario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/java/com/example/entregafinalpsp/dialogs/DialogoSesion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/res/layout/dialogo_inicio_sesion.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
