@@ -19,6 +19,9 @@ public class Hijo {
             usuario = leer.split(" ")[0];
             contrasenia = leer.split(" ")[1];
 
+
+            String usuarioCompleto = usuario+" "+ contrasenia;
+            System.out.println(usuarioCompleto);
             bufferedReader = new BufferedReader(new FileReader("src/entreja.txt"));
 
             while ((lectura = bufferedReader.readLine()) != null) {

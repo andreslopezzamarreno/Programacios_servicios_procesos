@@ -1,14 +1,10 @@
-import java.awt.*;
-import java.awt.event.InputEvent;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.UnknownHostException;
-
-import static java.awt.SystemColor.control;
 
 public class Servidor {
     public static void main(String[] args) {
@@ -23,6 +19,7 @@ public class Servidor {
             System.out.println(InetAddress.getLocalHost());
             System.out.println("Puerto: " + socket);
             servidor = new ServerSocket(socket);
+
             while (!lectura.equalsIgnoreCase("parar")) {
                 Socket cliente = servidor.accept();
                 br = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
@@ -34,7 +31,6 @@ public class Servidor {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
 
     }
 
