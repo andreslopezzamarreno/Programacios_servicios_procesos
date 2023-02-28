@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fe5513-9bff-47b3-8275-8163340a558f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClienteServidor-Seguro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AlmacenSrv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClienteSSL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ServidorSSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClienteServidor-Seguro/ClienteSSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClienteServidor-Seguro/ClienteSSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClienteServidor-Seguro/ServidorSSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClienteServidor-Seguro/ServidorSSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClienteSSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClienteSSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServidorSSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServidorSSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntregaTres/Cliente/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EntregaTres/Cliente/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,5 +90,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ClienteServidor_Seguro$ClienteSSL.ic" NAME="ClienteSSL Coverage Results" MODIFIED="1676973457435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

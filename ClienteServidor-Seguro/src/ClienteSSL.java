@@ -4,7 +4,7 @@ import javax.net.ssl.*;
 public class ClienteSSL {
     public static void main(String[] args) throws Exception {
         String Host = "192.168.2.110";
-        int puerto = 5556;//puerto remoto
+        int puerto = 9999;//puerto remoto
 
         // Propiedades JSSE)
         System.setProperty("javax.net.ssl.trustStore", "src/AlmacenSrv");
@@ -20,13 +20,13 @@ public class ClienteSSL {
         flujoSalida.writeUTF("Esto es el Cliente. Te saludo Servidor");
 
         // CREO FLUJO DE ENTRADA AL SERVIDOR
-        //DataInputStream flujoEntrada = new DataInputStream(Cliente.getInputStream());
+        DataInputStream flujoEntrada = new DataInputStream(Cliente.getInputStream());
 
         // EL servidor ME ENVIA UN MENSAJE
-        //System.out.println(flujoEntrada.readUTF());
+        System.out.println(flujoEntrada.readUTF());
 
         // CERRAR STREAMS Y SOCKETS
-        //flujoEntrada.close();
+        flujoEntrada.close();
         flujoSalida.close();
         Cliente.close();
     }// main

@@ -3,7 +3,7 @@ import javax.net.ssl.*;
 
 public class ServidorSSL {
     public static void main(String[] arg) throws IOException {
-        int puerto = 5556;
+        int puerto = 9999;
 
         System.setProperty("javax.net.ssl.keyStore","src/AlmacenSrv");
         System.setProperty("javax.net.ssl.keyStorePassword","1234567");
@@ -12,6 +12,7 @@ public class ServidorSSL {
                 .getDefault();
         SSLServerSocket servidorSSL = (SSLServerSocket) sfact
                 .createServerSocket(puerto);
+
         SSLSocket clienteConectado = null;
         DataInputStream flujoEntrada = null;//FLUJO DE ENTRADA DE CLIENTE
         DataOutputStream flujoSalida = null;//FLUJO DE SALIDA AL CLIENTE
