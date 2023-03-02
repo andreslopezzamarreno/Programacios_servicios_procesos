@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efd217f3-34a8-4f30-b434-35373924d0e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/java/com/example/entregafinalpsp/MainActivity2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/java/com/example/entregafinalpsp/Usuario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/java/com/example/entregafinalpsp/dialogs/DialogoSesion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EntregaFinal/app/src/main/res/layout/dialogo_inicio_sesion.xml" afterDir="false" />
-    </list>
+    <list default="true" id="efd217f3-34a8-4f30-b434-35373924d0e6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,13 +31,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/lopez/Documents/Github/Programacios_servicios_procesos/ServidorCliente"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
